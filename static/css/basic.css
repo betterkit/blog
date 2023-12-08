@@ -19,6 +19,8 @@ header h1{line-height: 2em;}
 .card img{width: 100%; height: 100%;}
 .card img:hover{cursor: pointer;}
 .card span{font-size: 14px}
+.page {padding: 10px;box-sizing: border-box;}
+.page img {max-width: 100%;}
 footer{
     text-align: center; height: 30px;color: #666; padding-top: 80px;
     background: url("http://uhenan.com/Content/Web/i_bg.jpg") no-repeat 0px 0/100% 100%;}
