@@ -6,10 +6,10 @@ a:hover{ color: #f00}
 .fl{float: left;}.fr{float: right;}.cf::after{clear: both; content: '';display: block;}
 .container,header,footer{width: 100%; max-width:970px; margin: 0 auto; padding: 5px; box-sizing: border-box;}
 header{height: 110px; color: #555; overflow: hidden;border-radius: 8px; box-sizing: border-box;}
-header h1{line-height: 2em; margin-left: 5px}
-.navbar li{float: left; margin: 1px 5px; border-radius: 8px}
+header h1{line-height: 2em; margin-left: 3px}
+.navbar li{float: left; margin: 1px 7px 1px 3px; border-radius: 8px}
 .navbar .current{font-weight: bold;}
-.card{ width: 240px; box-sizing: border-box; padding: 5px; margin-top: 5px; float: left;text-align: center; height: 180px}
+.card{ width: 240px; box-sizing: border-box; padding: 3px; margin-top: 5px; float: left;text-align: center; height: 180px}
 .card .box{width: 100%; height: 150px; border-radius: 8px; overflow: hidden; transition: all 0.3s;}
 .card .box:hover{box-shadow: 1px 2px 3px #555;}
 .card img{width: 100%; height: 100%;}
