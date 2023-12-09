@@ -22,8 +22,8 @@ header h1{line-height: 2em;}
 .page {padding: 10px;box-sizing: border-box;}
 .page img {max-width: 100%;}
 footer{
-    text-align: center; height: 30px;color: #666; padding-top: 80px;
-    background: url("http://uhenan.com/Content/Web/i_bg.jpg") no-repeat 0px 0/100% 100%;}
+    text-align: center; height: 30px;color: #666; padding-top: 80px; text-shadow: 1px 1px 2px #fff;margin-top: 20px;
+    background: #eee url("http://uhenan.com/Content/Web/i_bg.jpg") no-repeat 0px 0/100% 100%;}
 
 @media screen and (max-width:498px) {
     header{padding: 0 5px}
