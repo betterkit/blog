@@ -4,23 +4,25 @@ li{list-style: none;}
 a{color: #333;text-decoration: none;}
 a:hover{ color: #f00}
 .fl{float: left;}.fr{float: right;}.cf::after{clear: both; content: '';display: block;}
-.container,header,footer{width: 100%; max-width:970px; margin: 0 auto; padding: 5px; box-sizing: border-box;}
+.container,header,footer{width: 100%; max-width:970px; margin: 0 auto; padding: 4px; box-sizing: border-box;}
 header{height: 110px; color: #555; overflow: hidden;border-radius: 8px; box-sizing: border-box;}
-header h1{line-height: 2em; margin-left: 3px}
-.navbar li{float: left; margin: 1px 7px 1px 3px; border-radius: 8px}
+header h1{line-height: 2em; margin-left: 4px}
+.navbar li{float: left; margin: 1px 4px;}
 .navbar .current{font-weight: bold;}
-.card{ width: 240px; box-sizing: border-box; padding: 3px; margin-top: 5px; float: left;text-align: center; height: 180px}
+.card{ width: 240px; box-sizing: border-box; padding: 4px; margin-top: 5px; float: left;text-align: center; height: 180px}
 .card .box{width: 100%; height: 150px; border-radius: 8px; overflow: hidden; transition: all 0.3s;}
 .card .box:hover{box-shadow: 1px 2px 3px #555;}
 .card img{width: 100%; height: 100%;}
 .card img:hover{cursor: pointer;}
 .card span{font-size: 14px}
-.page {padding: 10px;box-sizing: border-box;}
+.page {padding: 4px;box-sizing: border-box;}
 .page img {max-width: 100%;}
 footer{
-    text-align: center; height: 80px;color: #666; padding-top: 50px; text-shadow: 1px 1px 2px #fff;margin-top: 20px;
-    background: #eee url("http://uhenan.com/Content/Web/i_bg.jpg") no-repeat 0px 0px/100% 100%;}
-
+    text-align: center; height: 90px;color: #666; text-shadow: 1px 1px 2px #fff;margin-top: 20px;
+    background: #eee url("http://uhenan.com/Content/Web/i_bg.jpg") no-repeat 0px 0px/100% 100%;
+}
+footer .company a{margin: 0 10px; line-height: 1em}
+footer .copyright{font-size: 14px; line-height: 20px}
 @media screen and (max-width:510px) {
     .card{width: 50%; height: 150px}
     .card .box{height: 120px}
