@@ -17,12 +17,13 @@ header h1{line-height: 2em; margin-left: 4px}
 .card span{font-size: 14px}
 .page {padding: 4px;box-sizing: border-box;}
 .page img {max-width: 100%;}
+.page a {color: blue; text-decoration: underline;}
 footer{
     text-align: center; height: 90px;color: #999;margin-top: 20px;
     background: #ddd;
 }
 footer .company a{margin: 0 8px; line-height: 1em; color: #666}
-footer .copyright{font-size: 14px; line-height: 20px; text-shadow: 1px 1px 1px #fff}
+footer .copyright{font-size: 14px; line-height: 20px; text-shadow: .4px .4px .4px #fff}
 @media screen and (max-width:510px) {
     .card{width: 50%; height: 150px}
     .card .box{height: 120px}
