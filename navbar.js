@@ -1,4 +1,4 @@
-document.write(`<ul class="navbar cf">
+document.write(`<ul class="cf">
             <li><a href="index.html">首页</a></li>
             <li><a href="kaifeng.html">开封</a></li>
             <li><a href="zhengzhou.html">郑州</a></li>

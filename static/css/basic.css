@@ -1,30 +1,36 @@
-body{font-size: 16px; color: #333; line-height: 1.6em; background-color: #f9f9f9}
+/*public*/
+body{font-size: 16px; color: #555; line-height: 1.6em; background-color: #f9f9f9}
 body,ul,li,h1{margin: 0; padding: 0;}
 li{list-style: none;}
 a{color: #333;text-decoration: none;}
 a:hover{ color: #f00}
 .fl{float: left;}.fr{float: right;}.cf::after{clear: both; content: '';display: block;}
-.container,header,footer{width: 100%; max-width:970px; margin: 0 auto; padding: 4px; box-sizing: border-box;}
-header{height: 110px; color: #555; overflow: hidden;border-radius: 8px; box-sizing: border-box;}
-header h1{line-height: 2em; margin-left: 4px}
-.navbar li{float: left; margin: 1px 6px 1px 4px;}
-.navbar .current{font-weight: bold;}
-.card{ width: 240px; box-sizing: border-box; padding: 4px; margin-top: 5px; float: left;text-align: center; height: 180px}
-.card .box{width: 100%; height: 150px; border-radius: 8px; overflow: hidden; transition: all 0.3s;}
-.card .box:hover{box-shadow: 1px 2px 3px #555;}
-.card img{width: 100%; height: 100%;}
-.card img:hover{cursor: pointer;}
-.card span{font-size: 14px}
-.page {padding: 4px;box-sizing: border-box;}
-.page img {max-width: 100%;}
-.page a {color: blue; text-decoration: underline;}
-footer{
-    text-align: center; height: 90px;color: #999;margin-top: 20px;
-    background: #ddd;
-}
+/*general*/
+header,nav,main,footer {width: 100%; max-width:970px; margin: 0 auto; box-sizing: border-box;}
+header,nav,main,footer {padding: 4px;}
+/*header*/
+header{height: 110px; overflow: hidden;}
+header h1{line-height: 2em; margin-left: 4px;}
+/*nav*/
+nav ul li{float: left; margin: 1px 6px 1px 4px;}
+nav ul li .current{font-weight: bold;}
+/*list*/
+section {float: left; box-sizing: border-box; padding: 4px; margin-top: 5px; text-align: center; width: 240px; height: 180px}
+section .box{width: 100%; height: 150px; border-radius: 8px; overflow: hidden; transition: all 0.3s;}
+section .box:hover{box-shadow: 1px 2px 3px #555;}
+section img{width: 100%; height: 100%;}
+section img:hover{cursor: pointer;}
+section span{font-size: 14px}
+/*article*/
+article {padding: 4px;}
+article img {max-width: 100%;}
+article a {color: #15c; text-decoration: underline;}
+/*footer*/
+footer{text-align: center; height: 90px;color: #999;margin-top: 20px;background: #ddd;}
 footer .company a{margin: 0 8px; line-height: 1em; color: #666}
 footer .copyright{font-size: 14px; line-height: 20px; text-shadow: .4px .4px .4px #fff}
+/*screen*/
 @media screen and (max-width:510px) {
-    .card{width: 50%; height: 150px}
-    .card .box{height: 120px}
+    section{width: 50%; height: 150px}
+    section .box{height: 120px}
 }
