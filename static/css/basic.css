@@ -9,8 +9,9 @@ a:hover{text-decoration: underline;}
 header,nav,main,footer {width: 100%; max-width:970px; margin: 0 auto; box-sizing: border-box;}
 header,nav,main,footer {padding: 4px;}
 /*header*/
-header{height: 110px; overflow: hidden;}
-header h1{line-height: 2em; margin-left: 4px;}
+header{height: 90px; overflow: hidden;}
+header h1{line-height: 1.3em; margin: 15px 4px; font-size: 22px;font-weight: normal;color: #333;}
+header label {padding: 2px 5px; color: #789;}
 /*nav*/
 nav ul li{float: left; margin: 1px 6px 1px 4px;}
 nav ul li .current{font-weight: bold;}
