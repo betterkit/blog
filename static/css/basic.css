@@ -34,7 +34,7 @@ article a {color: #15c; text-decoration: underline;}
 /*footer*/
 footer{text-align: center; height: 90px;color: #999;margin-top: 20px;background: #ddd;}
 footer .company a{margin: 0 8px; line-height: 1em; color: #666}
-footer .copyright{line-height: 20px; font-size: 14px; text-shadow: .4px .4px .4px #fff}
+footer .copyright{line-height: 20px; font-size: 14px;}
 /*screen*/
 @media screen and (max-width:510px) {
     section{width: 50%; height: 155px}
