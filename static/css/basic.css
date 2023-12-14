@@ -19,9 +19,9 @@ nav ul li .current{font-weight: bold;}
 section {float: left;font-size: 14px ;box-sizing: border-box; padding: 4px; margin-top: 5px; text-align: center; width: 240px; height: 185px; overflow: hidden;}
 section img{width: 100%; height: 150px; border-radius: 8px; overflow: hidden; transition: all 0.3s;}
 section img:hover{box-shadow: 1px 2px 3px #555;cursor: pointer;}
-.wide {width: 480px; height: 158px; text-align: left; position: relative;}
+.wide {width: 480px; text-align: left; position: relative;}
 .wide .box{background: #ffe; border-radius: 8px}
-.wide img {float: left; margin-right: 5px; border-radius: 8px; width: 230px; height: 150px}
+.wide img {float: left; margin-right: 5px; border-radius: 8px; width: 230px; height: 170px}
 .wide p {margin: 5px; max-height: 80px; overflow: hidden;}
 .wide .price {color: red; font-size: 18px; position: absolute; bottom: 5px}
 .wide .price::before{content: "￥"}
