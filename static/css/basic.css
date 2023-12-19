@@ -31,8 +31,10 @@ article p:first-child {margin-top: 0}
 article img {max-width: 100%;}
 article details{margin-bottom: 20px}
 article a {color: #15c; text-decoration: underline;}
+article .service{text-align: center;border: 1px dotted #ccc; padding: 5px 0;position: relative;}
+article .service label {position: absolute; left: 0; top: 0;font-size: 12px; line-height: 20px;color: #abd; background: #eee; padding: 0 4px;}
 /*footer*/
-footer{text-align: center; height: 90px;color: #999;margin-top: 20px;background: #ddd;}
+footer{text-align: center; height: 90px;color: #999;margin-top: 10px;background: #ddd;}
 footer .company a{margin: 0 8px; line-height: 1em; color: #666}
 footer .copyright{line-height: 20px; font-size: 14px;}
 /*screen*/
