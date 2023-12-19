@@ -31,8 +31,8 @@ article p:first-child {margin-top: 0}
 article img {max-width: 100%;}
 article details{margin-bottom: 20px}
 article a {color: #15c; text-decoration: underline;}
-article .service{text-align: center;border: 1px dotted #ccc; padding: 5px 0;position: relative;}
-article .service label {position: absolute; left: 5px; top: -8px;font-size: 12px; line-height: 14px;color: #abd; background: #eee; padding:0 5px; border-radius: 4px}
+article .service{text-align: center;border: 1px dotted #ccc; padding: 5px 0;position: relative; border-radius: 8px}
+article .service label {position: absolute; left: 8px; top: -8px;font-size: 12px; line-height: 14px;color: #abd; background: #eee; padding:0 2px; border-radius: 4px}
 /*footer*/
 footer{text-align: center; height: 90px;color: #999;margin-top: 10px;background: #ddd;}
 footer .company a{margin: 0 8px; line-height: 1em; color: #666}
